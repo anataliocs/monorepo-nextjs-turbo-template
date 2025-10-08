@@ -4,7 +4,8 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["*", "../../../../../packages/database/node_modules/@prisma/client/runtime/library"]
-    }
+    },
+    "jsx": "preserve"
   },
   "include": ["next-env.d.ts", "src", "e2e"],
   "exclude": ["dist", "node_modules"]
