@@ -1,7 +1,6 @@
-# Next.js & Tailwind CSS Monorepo Template
+# Next.js Monorepo Base Template
 
-This is a monorepo template using:
-
+**Front-end Tech Stack:**
 - 📏 [TypeScript 5.0](https://www.typescriptlang.org/)
 - ⚡️ [Next.js 13.2](https://nextjs.org/)
 - ⚛️ [React 18.2](https://reactjs.org/)
@@ -18,9 +17,7 @@ This is a monorepo template using:
 - 🏎️ [Turborepo](https://turbo.build/repo)
 - 👷 [Github Actions](https://github.com/features/actions)
 
-## What's inside?
-
-This monorepo includes a few apps and packages.
+----
 
 ### Apps and Packages
 
@@ -37,7 +34,9 @@ This monorepo includes a few apps and packages.
 - `packages/tailwindcss-config`: shared Tailwind CSS configuration
 - `packages/typescript-config`: shared `tsconfig.json` files
 
-## Using this template
+----
+
+## Build and Run Project
 
 Run the following command:
 
@@ -101,7 +100,7 @@ If you want to run unit tests for all projects, run at the root:
 pnpm test:unit
 ```
 
-### End-to-end tests
+### End-to-End tests
 
 If you want to run e2e tests for all projects, run at the root:
 
@@ -116,3 +115,7 @@ If you want to run linting for all projects, run at the root:
 ```
 pnpm lint
 ```
+
+----
+
+
